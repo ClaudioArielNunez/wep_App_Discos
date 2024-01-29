@@ -16,7 +16,8 @@
                             <h5 class="card-title"><%:item.Titulo %></h5>
                             <p class="card-text"><%:item.Estilo %></p>
                             <asp:Button Text="Aceptar" ID="btnAceptar" CssClass="btn btn-primary" runat="server" />
-                            <a href="DetalleDisco.aspx" class="ms-3">Ver detalle</a>
+                            <a href="DetalleDisco.aspx?id=<%:item.Id %>" class="ms-3">Ver detalle</a>
+                            <%--Enviamos el id para buscarlo--%>
                         </div>
                     </div>
                 </div>

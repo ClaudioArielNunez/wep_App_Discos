@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Entidades
 {
     public class TipoEdicion
-    {//Atributos
+    {
         public int Id { get; set; }
         public string Descripcion { get; set; }
 

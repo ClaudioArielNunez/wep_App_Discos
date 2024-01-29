@@ -61,8 +61,7 @@ namespace Ejemplo_ASP
             }
             catch (Exception ex)
             {
-                Session.Add("Error", ex);
-                throw;
+                Session.Add("Error", ex);                
             }
         }
 

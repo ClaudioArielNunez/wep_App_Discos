@@ -85,7 +85,7 @@ namespace Negocio
 
                     nuevoDisco.TipoEdicion = new TipoEdicion();
                     nuevoDisco.TipoEdicion.Id = (int)datos.Lector["IdTipoEdicion"];
-
+                    nuevoDisco.TipoEdicion.Descripcion = (string)datos.Lector["TipoEdicion"];
                    
                 }
                 return nuevoDisco;
